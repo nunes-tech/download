@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* pagina de download */
+*{
+	line-height: 1.8em;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tudo{
+	background-color: #eee;
+	padding: 10px;
+	margin: auto;
+    box-sizing: border-box;
+}
+.tudo > h1{
+	background-color: #fff;
+	color: #090909;
+	padding: 20px 0px;
+	box-shadow: 2px 2px 2px #ccc;
+	font-size: 25px;
+    margin: -10px -9px 0px;
+}
+.conteudo-barra{
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+    box-sizing: border-box;
+	margin: 50px auto;
+}
+
+/* Aqui botao */
+.botao{
+	background: green;
+	color: white;
+	padding: 2px 20px;
+	text-decoration: none;
+	border-radius: 30px;
+    display: inline-block;
+}
+.conteudo-principal{
+	width: 65%;
+	display: inline-block;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 3px 3px #ccc;
+	margin-right: 4%;
+    box-sizing: border-box;
+}
+.barra-lateral{
+	width: 30%;
+	display: inline-block;
+	background-color: #fff;
+	padding: 10px;
+	vertical-align: top;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #ccc;
+    box-sizing: border-box;
+}
+.manual > a{
+	background-color: #090909;
+    color: white;
+	max-width: 200px;
+	border-radius: 30px;
+	padding: 2px 20px;
+	text-decoration: none;
+    display: inline-block;
+}
+.tudo a:hover{
+	background-color: blue;
+	color: white;
+}
+.rodape-especial{
+	text-align: center;
+	background-color: #090909;
+	color: #e0e0e0;
+	padding: 5px;
+}
+
+/* Formatações para telas menores que 800 pixels de largura*/
+@media screen and (max-width: 800px) { .conteudo-principal { width: 100%;	
+}
+@media screen and (max-width: 800px) { .barra-lateral { 
+	width: 100%;
+	margin-top: 40px;
+}
